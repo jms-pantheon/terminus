@@ -12,8 +12,9 @@ Setting Up
 1. Clone this Git repository on your local machine.
 2. Install [Composer](https://getcomposer.org/) if you don't already have it.
 3. Install [Box](https://github.com/box-project/box) if not already installed.
-4. Run `composer install` to fetch all the dependencies.
-5. Run `./bin/terminus --help` to test that everything was installed properly.
+4. Install code coverage with `pecl install pcov`
+5. Run `composer install` to fetch all the dependencies.
+6. Run `./bin/terminus --help` to test that everything was installed properly.
 
 Submitting Patches
 ------------------
